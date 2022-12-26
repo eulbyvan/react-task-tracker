@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 /*
  * Author : Stu (https://www.eulbyvan.com)
  * Created on : Mon Dec 26 2022 14:50:12
@@ -14,6 +16,10 @@ const Header = ({ title }) => {
 
 Header.defaultProps = {
 	title: 'Task Tracker',
+};
+
+Header.propTypes = {
+	title: PropTypes.string.isRequired,
 };
 
 export default Header;
