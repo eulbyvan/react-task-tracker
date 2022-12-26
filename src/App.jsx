@@ -9,7 +9,7 @@ import Header from './components/Header';
 const App = () => {
 	return (
 		<div className="container">
-			<Header title={1} /> {/*it renders with prop type error*/}
+			<Header />
 		</div>
 	);
 };
