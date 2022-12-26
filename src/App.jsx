@@ -5,9 +5,12 @@
  */
 
 const App = () => {
+	const name = 'Stu';
+	const x = true;
+
 	return (
 		<div className="container">
-			<h1>Hello From React</h1>
+			<h1>Hello {x ? `${name}` : 'user'}</h1>
 		</div>
 	);
 };
