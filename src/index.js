@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/*
+ * Author : Stu (https://www.eulbyvan.com)
+ * Created on : Mon Dec 26 2022 14:44:40
+ * Copyright (c) 2022
+ */
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
