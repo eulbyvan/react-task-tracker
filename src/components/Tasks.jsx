@@ -6,11 +6,11 @@ import Task from './Task';
  * Copyright (c) 2022
  */
 
-const Tasks = ({ tasks }) => {
+const Tasks = ({ tasks, onDelete }) => {
 	return (
 		<>
 			{tasks.map((task) => (
-				<Task key={task.id} task={task} />
+				<Task key={task.id} task={task} onDelete={onDelete} />
 			))}
 		</>
 	);
