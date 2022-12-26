@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Header from './components/Header';
 import Tasks from './components/Tasks';
+import AddTask from './components/AddTask';
 
 /*
  * Author : Stu (https://www.eulbyvan.com)
@@ -47,6 +48,7 @@ const App = () => {
 	return (
 		<div className="container">
 			<Header />
+			<AddTask />
 			{tasks.length > 0 ? (
 				<Tasks
 					tasks={tasks}
