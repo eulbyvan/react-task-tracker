@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import Tasks from './components/Tasks';
 
 /*
  * Author : Stu (https://www.eulbyvan.com)
@@ -10,6 +11,7 @@ const App = () => {
 	return (
 		<div className="container">
 			<Header />
+			<Tasks />
 		</div>
 	);
 };
